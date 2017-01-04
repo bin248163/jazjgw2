@@ -110,7 +110,7 @@
 
 <div class="submit-n pt-70">
 	<div class="w-1000">
-		<h1>如果您想加盟居安之家，请留下您的联系方式</h1>
+		<h1>如果您想代理居安之家产品/服务，请留下您的联系方式</h1>
 		<form action="" class="pt-70" target="hideIframe">
 			<div class="f1">
 				<input type="text" name="" class="inp1 text2" value="" required="required" maxlength="10" />
