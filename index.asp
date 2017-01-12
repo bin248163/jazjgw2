@@ -12,7 +12,7 @@
 
 	<body>
 
-	    <!--头部导航-->
+		<!--头部导航-->
 		<div class="head">
 			<div class="header">
 				<div class="logo">
@@ -26,7 +26,7 @@
 						<li>
 							<a href="service.asp">服务</a>
 						</li>
-			
+
 						<li>
 							<a href="product.asp">产品</a>
 						</li>
@@ -35,6 +35,9 @@
 						</li>
 						<li>
 							<a href="store.asp">专卖店加盟</a>
+						</li>
+						<li>
+							<a href="news.asp">居安资讯</a>
 						</li>
 						<li>
 							<a href="about.asp">关于我们</a>
@@ -50,7 +53,7 @@
 			<div id="banner_tabs" class="flexslider">
 				<ul class="slides">
 					<li>
-						<a href="" style="background: url(images/banner1.jpg) no-repeat center;" ></a>
+						<a href="" style="background: url(images/banner1.jpg) no-repeat center;"></a>
 					</li>
 					<li>
 						<a href="" style="background: url(images/banner2.jpg) no-repeat center;" /></a>
@@ -124,7 +127,8 @@
 				</div>
 			</div>
 
-		</div> <!--背景打通#f3f3f3-->
+		</div>
+		<!--背景打通#f3f3f3-->
 
 		<!--用户烦恼-->
 		<!--<div class="w-100b pc-70">
@@ -390,162 +394,231 @@
 
 		<!--安全课堂-->
 		<div class="w-1000 pt-70">
-            <div class="why">
-        				<h1>安全课堂</h1>
-        				<h2>about safety</h2>
-        			</div>
-            <div class="w-1000">
-                <!--发现更多按钮-->
-        	    <div class="service-m">
-        	        <a href="safety-x.asp">发现更多MORE</a>
-        	    </div>
-        	    <div class="safety-box claerfix">
+			<div class="why">
+				<h1>安全课堂</h1>
+				<h2>about safety</h2>
+			</div>
+			<div class="w-1000">
+				<!--发现更多按钮-->
+				<div class="service-m">
+					<a href="safety-x.asp">发现更多MORE</a>
+				</div>
+				<div class="safety-box claerfix">
 
-        	        <!--左大图-->
-        	        <div class="safety-left">
-                        <a href="safety-xx.asp" class="safety-focus">
-                            <img src="images/safety-img.jpg" alt="">
-                        </a>
-                    </div>
-                    <!--中列表-->
-                    <div class="safety-mid">
-                        <a href="safety-xx.asp" class="safety-news-1 hotnews">
-                                    <img class="hotlabel" src="images/icon-hotnews.png"/>
-                                    <h3>居安之家，使家更安心</h3>
-                                    <p>居安之家，使家更安心居安之家，使家更安心居安之家，使家更安心居安之家，使家更安心居安之家，使家更安心居安之家，  </p>
-                                </a>
-                        <a href="safety-xx.asp" class="safety-news-1">
-                                    <h3>居安之家，使家更安心</h3>
-                                    <p>居安之家，使家更安心居安之家，使家更安心居安之家，使家更安心居安之家，使家更安心居安之家，使家更安心居安之家，  </p>
-                                </a>
-                        <a href="safety-xx.asp" class="safety-news-1">
-                                    <h3>居安之家，使家更安心</h3>
-                                    <p>居安之家，使家更安心居安之家，使家更安心居安之家，使家更安心居安之家，使家更安心居安之家，使家更安心居安之家，  </p>
-                                </a>
-                        <a href="safety-xx.asp" class="safety-news-1">
-                                    <h3>居安之家，使家更安心</h3>
-                                    <p>居安之家，使家更安心居安之家，使家更安心居安之家，使家更安心居安之家，使家更安心居安之家，使家更安心居安之家，  </p>
-                                </a>
-                    </div>
-                    <!--右列表-->
-                    <div class="safety-right">
-                        <div class="tab">
-                            <ul>
-                                <li class="tab-item choosen">防火</li>
-                                <li class="tab-item">防盗</li>
-                                <li class="tab-item">其它</li>
-                            </ul>
-                        </div>
-                        <div class="content">
-                            <div class="safety-news-2">
-                                             <a href="safety-xx.asp" class="safety-r-item">
-                                                 <span class="num">1</span>
-                                                 <span class="txt">11111111111111 </span>
-                                             </a>
-                                             <a href="safety-xx.asp" class="safety-r-item">
-                                                 <span class="num">2</span>
-                                                 <span class="txt">居安之家居安之家，使家更居安 安使家更 </span>
-                                             </a>
-                                             <a href="safety-xx.asp" class="safety-r-item">
-                                                 <span class="num">3</span>
-                                                 <span class="txt">居安之家居安之家，使家更居安使家更 </span>
-                                             </a>
-                                             <a href="safety-xx.asp" class="safety-r-item">
-                                                 <span class="num">4</span>
-                                                 <span class="txt">居安之家居安之家，使家更居安使家更 </span>
-                                             </a>
-                                             <a href="safety-xx.asp" class="safety-r-item">
-                                                 <span class="num">5</span>
-                                                 <span class="txt">居安之家居安之家，使家更居安使家更 </span>
-                                             </a>
-                                             <a href="safety-xx.asp" class="safety-r-item">
-                                                 <span class="num">6</span>
-                                                 <span class="txt">居安之家居安之家，使家更居安使家更 </span>
-                                             </a>
-                                             <a href="safety-xx.asp" class="safety-r-item">
-                                                 <span class="num">7</span>
-                                                 <span class="txt">居安之家居安之家，使家更居安使家更 </span>
-                                             </a>
-                                             <a href="safety-xx.asp" class="safety-r-item">
-                                                 <span class="num">8</span>
-                                                 <span class="txt">居安之家居安之家，使家更居安使家更 </span>
-                                             </a>
-                                      </div>
-                            <div class="safety-news-2" style="display: none">
-                                          <a href="safety-xx.asp" class="safety-r-item">
-                                                                         <span class="num">1</span>
-                                                                         <span class="txt">222222222222 </span>
-                                                                     </a>
-                                          <a href="safety-xx.asp" class="safety-r-item">
-                                                                         <span class="num">2</span>
-                                                                         <span class="txt">居安之家居安之家，使家更居安 安使家更 </span>
-                                                                     </a>
-                                          <a href="safety-xx.asp" class="safety-r-item">
-                                                                         <span class="num">3</span>
-                                                                         <span class="txt">居安之家居安之家，使家更居安使家更 </span>
-                                                                     </a>
-                                          <a href="safety-xx.asp" class="safety-r-item">
-                                                                         <span class="num">4</span>
-                                                                         <span class="txt">居安之家居安之家，使家更居安使家更 </span>
-                                                                     </a>
-                                          <a href="safety-xx.asp" class="safety-r-item">
-                                                                         <span class="num">5</span>
-                                                                         <span class="txt">居安之家居安之家，使家更居安使家更 </span>
-                                                                     </a>
-                                          <a href="safety-xx.asp" class="safety-r-item">
-                                                                         <span class="num">6</span>
-                                                                         <span class="txt">居安之家居安之家，使家更居安使家更 </span>
-                                                                     </a>
-                                          <a href="safety-xx.asp" class="safety-r-item">
-                                                                         <span class="num">7</span>
-                                                                         <span class="txt">居安之家居安之家，使家更居安使家更 </span>
-                                                                     </a>
-                                          <a href="safety-xx.asp" class="safety-r-item">
-                                                                         <span class="num">8</span>
-                                                                         <span class="txt">居安之家居安之家，使家更居安使家更 </span>
-                                                                     </a>
-                                      </div>
-                            <div class="safety-news-2" style="display: none">
-                                          <a href="safety-xx.asp" class="safety-r-item">
-                                              <span class="num">1</span>
-                                              <span class="txt">33333333 </span>
-                                          </a>
-                                          <a href="safety-xx.asp" class="safety-r-item">
-                                                                                                 <span class="num">2</span>
-                                                                                                 <span class="txt">居安之家居安之家，使家更居安 安使家更 </span>
-                                                                                             </a>
-                                          <a href="safety-xx.asp" class="safety-r-item">
-                                                                                                 <span class="num">3</span>
-                                                                                                 <span class="txt">居安之家居安之家，使家更居安使家更 </span>
-                                                                                             </a>
-                                          <a href="safety-xx.asp" class="safety-r-item">
-                                                                                                 <span class="num">4</span>
-                                                                                                 <span class="txt">居安之家居安之家，使家更居安使家更 </span>
-                                                                                             </a>
-                                          <a href="safety-xx.asp" class="safety-r-item">
-                                                                                                 <span class="num">5</span>
-                                                                                                 <span class="txt">居安之家居安之家，使家更居安使家更 </span>
-                                                                                             </a>
-                                          <a href="safety-xx.asp" class="safety-r-item">
-                                                                                                 <span class="num">6</span>
-                                                                                                 <span class="txt">居安之家居安之家，使家更居安使家更 </span>
-                                                                                             </a>
-                                          <a href="safety-xx.asp" class="safety-r-item">
-                                                                                                 <span class="num">7</span>
-                                                                                                 <span class="txt">居安之家居安之家，使家更居安使家更 </span>
-                                                                                             </a>
-                                          <a href="safety-xx.asp" class="safety-r-item">
-                                                                                                 <span class="num">8</span>
-                                                                                                 <span class="txt">居安之家居安之家，使家更居安使家更 </span>
-                                                                                             </a>
-                                      </div>
-                        </div>
-                    </div>
-        	    </div>
-            </div>
-        </div>
+					<!--左大图-->
+					<div class="safety-left">
+						<a href="safety-xx.asp" class="safety-focus">
+							<img src="images/safety-img.jpg" alt="">
+						</a>
+					</div>
+					<!--中列表-->
+					<div class="safety-mid">
+						<a href="safety-xx.asp" class="safety-news-1 hotnews">
+							<img class="hotlabel" src="images/icon-hotnews.png" />
+							<h3>居安之家，使家更安心</h3>
+							<p>居安之家，使家更安心居安之家，使家更安心居安之家，使家更安心居安之家，使家更安心居安之家，使家更安心居安之家， </p>
+						</a>
+						<a href="safety-xx.asp" class="safety-news-1">
+							<h3>居安之家，使家更安心</h3>
+							<p>居安之家，使家更安心居安之家，使家更安心居安之家，使家更安心居安之家，使家更安心居安之家，使家更安心居安之家， </p>
+						</a>
+						<a href="safety-xx.asp" class="safety-news-1">
+							<h3>居安之家，使家更安心</h3>
+							<p>居安之家，使家更安心居安之家，使家更安心居安之家，使家更安心居安之家，使家更安心居安之家，使家更安心居安之家， </p>
+						</a>
+						<a href="safety-xx.asp" class="safety-news-1">
+							<h3>居安之家，使家更安心</h3>
+							<p>居安之家，使家更安心居安之家，使家更安心居安之家，使家更安心居安之家，使家更安心居安之家，使家更安心居安之家， </p>
+						</a>
+					</div>
+					<!--右列表-->
+					<div class="safety-right">
+						<div class="tab">
+							<ul>
+								<li class="tab-item choosen">防盗</li>
+								<li class="tab-item">防火</li>
+								<li class="tab-item">其它</li>
+							</ul>
+						</div>
+						<div class="content">
+							<div class="safety-news-2">
+								<a href="safety-xx.asp" class="safety-r-item safety-r-active">
+									<span class="num">1</span>
+									<div class="safety-r-item1">
 
-        <!--视频-->
+										<span class="txt">居安之家居安之家，使家更居安 安使家更 </span>
+									</div>
+									<div class="safety-r-item2">
+										<img src="images/xl_03.jpg">
+										<span class="txt-1">11111111111111111111111111111111111111111111111111111111111111 </span>
+									</div>
+								</a>
+								<a href="safety-xx.asp" class="safety-r-item">
+									<span class="num">2</span>
+									<div class="safety-r-item1">
+
+										<span class="txt">居安之家居安之家，使家更居安 安使家更 </span>
+									</div>
+									<div class="safety-r-item2">
+										<img src="images/xl_03.jpg">
+										<span class="txt-1">11111111111111111111111111111111111111111111111111111111111111 </span>
+									</div>
+								</a>
+								<a href="safety-xx.asp" class="safety-r-item">
+									<span class="num">3</span>
+									<div class="safety-r-item1">
+
+										<span class="txt">居安之家居安之家，使家更居安 安使家更 </span>
+									</div>
+									<div class="safety-r-item2">
+										<img src="images/xl_03.jpg">
+										<span class="txt-1">11111111111111111111111111111111111111111111111111111111111111 </span>
+									</div>
+								</a>
+								<a href="safety-xx.asp" class="safety-r-item">
+									<span class="num">4</span>
+									<div class="safety-r-item1">
+
+										<span class="txt">居安之家居安之家，使家更居安 安使家更 </span>
+									</div>
+									<div class="safety-r-item2">
+										<img src="images/xl_03.jpg">
+										<span class="txt-1">11111111111111111111111111111111111111111111111111111111111111 </span>
+									</div>
+								</a>
+								<a href="safety-xx.asp" class="safety-r-item">
+									<span class="num">5</span>
+									<div class="safety-r-item1">
+
+										<span class="txt">居安之家居安之家，使家更居安 安使家更 </span>
+									</div>
+									<div class="safety-r-item2">
+										<img src="images/xl_03.jpg">
+										<span class="txt-1">11111111111111111111111111111111111111111111111111111111111111 </span>
+									</div>
+								</a>
+							</div>
+							<div class="safety-news-2" style="display: none;">
+								<a href="safety-xx.asp" class="safety-r-item safety-r-active">
+									<span class="num">1</span>
+									<div class="safety-r-item1">
+
+										<span class="txt">居安之家居安之家，使家更居安 安使家更 </span>
+									</div>
+									<div class="safety-r-item2">
+										<img src="images/xl_03.jpg">
+										<span class="txt-1">11111111111111111111111111111111111111111111111111111111111111 </span>
+									</div>
+								</a>
+								<a href="safety-xx.asp" class="safety-r-item">
+									<span class="num">2</span>
+									<div class="safety-r-item1">
+
+										<span class="txt">居安之家居安之家，使家更居安 安使家更 </span>
+									</div>
+									<div class="safety-r-item2">
+										<img src="images/xl_03.jpg">
+										<span class="txt-1">11111111111111111111111111111111111111111111111111111111111111 </span>
+									</div>
+								</a>
+								<a href="safety-xx.asp" class="safety-r-item">
+									<span class="num">3</span>
+									<div class="safety-r-item1">
+
+										<span class="txt">居安之家居安之家，使家更居安 安使家更 </span>
+									</div>
+									<div class="safety-r-item2">
+										<img src="images/xl_03.jpg">
+										<span class="txt-1">11111111111111111111111111111111111111111111111111111111111111 </span>
+									</div>
+								</a>
+								<a href="safety-xx.asp" class="safety-r-item">
+									<span class="num">4</span>
+									<div class="safety-r-item1">
+
+										<span class="txt">居安之家居安之家，使家更居安 安使家更 </span>
+									</div>
+									<div class="safety-r-item2">
+										<img src="images/xl_03.jpg">
+										<span class="txt-1">11111111111111111111111111111111111111111111111111111111111111 </span>
+									</div>
+								</a>
+								<a href="safety-xx.asp" class="safety-r-item">
+									<span class="num">5</span>
+									<div class="safety-r-item1">
+
+										<span class="txt">居安之家居安之家，使家更居安 安使家更 </span>
+									</div>
+									<div class="safety-r-item2">
+										<img src="images/xl_03.jpg">
+										<span class="txt-1">11111111111111111111111111111111111111111111111111111111111111 </span>
+									</div>
+								</a>
+							</div>
+							<div class="safety-news-2" style="display: none;">
+								<a href="safety-xx.asp" class="safety-r-item safety-r-active">
+									<span class="num">1</span>
+									<div class="safety-r-item1">
+
+										<span class="txt">居安之家居安之家，使家更居安 安使家更 </span>
+									</div>
+									<div class="safety-r-item2">
+										<img src="images/xl_03.jpg">
+										<span class="txt-1">11111111111111111111111111111111111111111111111111111111111111 </span>
+									</div>
+								</a>
+								<a href="safety-xx.asp" class="safety-r-item">
+									<span class="num">2</span>
+									<div class="safety-r-item1">
+
+										<span class="txt">居安之家居安之家，使家更居安 安使家更 </span>
+									</div>
+									<div class="safety-r-item2">
+										<img src="images/xl_03.jpg">
+										<span class="txt-1">11111111111111111111111111111111111111111111111111111111111111 </span>
+									</div>
+								</a>
+								<a href="safety-xx.asp" class="safety-r-item">
+									<span class="num">3</span>
+									<div class="safety-r-item1">
+
+										<span class="txt">居安之家居安之家，使家更居安 安使家更 </span>
+									</div>
+									<div class="safety-r-item2">
+										<img src="images/xl_03.jpg">
+										<span class="txt-1">11111111111111111111111111111111111111111111111111111111111111 </span>
+									</div>
+								</a>
+								<a href="safety-xx.asp" class="safety-r-item">
+									<span class="num">4</span>
+									<div class="safety-r-item1">
+
+										<span class="txt">居安之家居安之家，使家更居安 安使家更 </span>
+									</div>
+									<div class="safety-r-item2">
+										<img src="images/xl_03.jpg">
+										<span class="txt-1">11111111111111111111111111111111111111111111111111111111111111 </span>
+									</div>
+								</a>
+								<a href="safety-xx.asp" class="safety-r-item">
+									<span class="num">5</span>
+									<div class="safety-r-item1">
+
+										<span class="txt">居安之家居安之家，使家更居安 安使家更 </span>
+									</div>
+									<div class="safety-r-item2">
+										<img src="images/xl_03.jpg">
+										<span class="txt-1">11111111111111111111111111111111111111111111111111111111111111 </span>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--视频-->
 		<div class="video-b">
 			<a href="http://cloud.video.taobao.com//play/u/2555789220/p/2/e/1/t/1/41671080.swf" class="videoA" target="_blank"><i class="iconfont">&#xe605;</i></a>
 			<div class="video-w">

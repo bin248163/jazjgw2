@@ -90,7 +90,7 @@ $(function() {
 		var dow3 = $('.text3').val();
 		var name = $('.text2').val();
 		var city = $('.text4').val();
-		var dizhi = $('.text5').text();
+		var dizhi = $('.text5').val();
 		var pattern = $('.text3').val();
 		if(pattern.length < 6 || isNaN(pattern) || name=="您的称呼" || dizhi=="您的地址" || city=="您所在的城市") {
 			$('.dow-w,.tan').show();
@@ -112,7 +112,7 @@ $(function() {
 		$('.text2').val('您的称呼');
 		$('.text3').val('您的手机号码');
 		$('.text4').val('您所在的城市');
-		$('.text5').text('您的地址');
+		$('.text5').val('您的地址');
 	});
 	$('.tan-x').click(function() {
 		$('.dow-w,.tan').hide();
@@ -131,8 +131,8 @@ $(function() {
 	textFill($("input.text3"));
 	$("input.text4").val("您所在的城市");
 	textFill($("input.text4"));
-	$(".text5").text("您的地址");
-	textFill1($(".text5"));
+	$(".text5").val("您的地址");
+	textFill($(".text5"));
 
 	function textFill(input) {
 		var originalvalue = input.val();
@@ -187,6 +187,15 @@ $(function() {
 		$teamN2.find('div').eq(index).show().siblings().hide();
 		return false;
 	})
+	
+	//news	
+	$('.newsL ul li').click(function() {
+		$(this).addClass('this').siblings().removeClass('this');
+		var index = $(this).index(this);
+		$('.newsX').find('.newsCon').eq(index).show().siblings().hide();
+		return false;
+	})
+	$('.newsL ul li').eq(0).click();
 
 	$teamList2.hover(function() {
 		$(this).addClass('this').siblings().removeClass('this');
@@ -322,7 +331,10 @@ $(function() {
 		return false;
 	})
 
-
+	//右侧栏新闻展开
+	$('.safety-r-item').hover(function() {
+		$(this).addClass('safety-r-active').siblings().removeClass('safety-r-active');
+	})
 
 
 })

@@ -37,6 +37,9 @@
 							<a href="store.asp">专卖店加盟</a>
 						</li>
 						<li>
+							<a href="news.asp">居安资讯</a>
+						</li>
+						<li>
 							<a href="about.asp">关于我们</a>
 						</li>
 					</ul>

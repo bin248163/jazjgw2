@@ -134,5 +134,5 @@
 			var nav = $('#nav ul li');
 			nav.eq(num).addClass('this');
 		}
-		curNav(5);
+		curNav(6);
 	</script>
