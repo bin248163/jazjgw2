@@ -1,9 +1,9 @@
 $(function() {
 	//q&a
-	$('.que .que1').hover(function(){
+	$('.que .que1').hover(function() {
 		$(this).addClass('quea').siblings().removeClass('quea');
 	});
-	
+
 	//banner
 	if($("#banner_tabs").length > 0) {
 		var bannerSlider = new Slider($('#banner_tabs'), {
@@ -24,7 +24,7 @@ $(function() {
 		$(window).scroll(function() {
 			if($(window).scrollTop() > 0) {
 				$('.head').addClass('head-index');
-				
+
 			}
 			if($(window).scrollTop() < 1) {
 				$('.head').removeClass('head-index');
@@ -63,14 +63,14 @@ $(function() {
 	//弹出框pattern.length > 6 && !isNaN(pattern)
 	var lc = 0;
 	$('.slider-x button').click(function() {
-		var pattern = $('.slider-x input').val();		
+		var pattern = $('.slider-x input').val();
 		if(pattern.length < 6 || isNaN(pattern)) {
 			$('.dow-w,.tan').show();
 			return false;
-		}else if(1>2){
+		} else if(1 > 2) {
 			$('.chong').show();
 			return false;
-		}else{
+		} else {
 			$('.dow-w,.dow').show();
 			var dow1 = "预约成功";
 			var dow2 = "我们的客服会尽快与您联系";
@@ -82,7 +82,7 @@ $(function() {
 			$('.dow3').text("您的手机号：" + dow3);
 			lc++;
 		}
-		
+
 	});
 	$('.btn button').click(function() {
 		var dow1 = "登记成功";
@@ -92,12 +92,12 @@ $(function() {
 		var city = $('.text4').val();
 		var dizhi = $('.text5').val();
 		var pattern = $('.text3').val();
-		if(pattern.length < 6 || isNaN(pattern) || name=="您的称呼" || dizhi=="您的地址" || city=="您所在的城市") {
+		if(pattern.length < 6 || isNaN(pattern) || name == "您的称呼" || dizhi == "您的地址" || city == "您所在的城市") {
 			$('.dow-w,.tan').show();
 			var tan1 = "请填写完整信息";
 			$('.tan1').text(tan1);
 			return false;
-		}else if(pattern.length > 6 && !isNaN(pattern) && name!="您的称呼" && city!="您所在的城市" && dizhi!="您的地址"){
+		} else if(pattern.length > 6 && !isNaN(pattern) && name != "您的称呼" && city != "您所在的城市" && dizhi != "您的地址") {
 			$('.dow-w,.dow').show();
 			$('.dow1').text(dow1);
 			$('.dow2').text(dow2);
@@ -116,7 +116,7 @@ $(function() {
 	});
 	$('.tan-x').click(function() {
 		$('.dow-w,.tan').hide();
-		
+
 	});
 	$('.chong-x').click(function() {
 		$('.dow-w,.chong').hide();
@@ -173,12 +173,12 @@ $(function() {
 	var $teamList = $('.teamList a');
 	var $teamN = $('.team-con');
 	$teamList.click(function() {
-		$(this).addClass('this').siblings().removeClass('this');
-		var index = $teamList.index(this);
-		$teamN.find('.team-n').eq(index).show().siblings().hide();
-		return false;
-	})
-	//team	
+			$(this).addClass('this').siblings().removeClass('this');
+			var index = $teamList.index(this);
+			$teamN.find('.team-n').eq(index).show().siblings().hide();
+			return false;
+		})
+		//team	
 	var $teamList2 = $('.qa_r ul li');
 	var $teamN2 = $('.qa_l');
 	$teamList2.click(function() {
@@ -187,7 +187,7 @@ $(function() {
 		$teamN2.find('div').eq(index).show().siblings().hide();
 		return false;
 	})
-	
+
 	//news	
 	$('.newsL ul li').click(function() {
 		$(this).addClass('this').siblings().removeClass('this');
@@ -317,7 +317,6 @@ $(function() {
 		$ys.find('.min').eq(index).show().siblings().hide();
 	})
 
-
 	//安全课堂切换
 
 	//标签
@@ -335,20 +334,39 @@ $(function() {
 	$('.safety-r-item').hover(function() {
 		$(this).addClass('safety-r-active').siblings().removeClass('safety-r-active');
 	})
-	var zan=0;
-	$('.news_zan').click(function(){
-		
-		if (zan==0) {
+	var zan = 0;
+	$('.news_zan').click(function() {
+		if(zan == 0) {
 			$(this).addClass('this');
+			var val = $(this).find('span').text();
+			var val1 = parseFloat(val) + 1;
+			$(this).find('span').text(val1);
 			zan++;
-			
-		} else{
+		} else {
 			alert("您已经点过赞了")
 		}
 		return false;
 	});
+	//$(window).scrollTop() <  $('.news_rx').offset().top - 10 && 
+	if($('.news_rx').length > 0){
+		$(window).scroll(function() {
+	
+		if($(window).scrollTop() <  $('.news_rx').offset().top - 10) {
+
+			$('.news_rx').removeClass('news_rx_fixed');
+		}
+		if($(window).scrollTop() > $('.news_rx').offset().top - 80){
+			$('.news_rx').addClass('news_rx_fixed');
+		}
+		if($(window).scrollTop() > $('#joinx').offset().top - 500) {
+
+			$('.news_rx').removeClass('news_rx_fixed');
+		}
+		
+		
+		
+	});
+	}
+	
 
 })
-
-
-

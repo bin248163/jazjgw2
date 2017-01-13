@@ -380,8 +380,8 @@
 						
 					})
 				});
-				$('.frontCover').children('li').click(function() {
-					$nav.children('a').eq($(this).attr('index')).trigger('click')
+				$('.frontCover').children('li').hover(function() {
+			$nav.children('a').eq($(this).attr('index')).trigger('click')
 				});
 				$('.frontCover').children('li').eq(0).addClass('open').end().eq(-1).css('margin', 0)
 			};

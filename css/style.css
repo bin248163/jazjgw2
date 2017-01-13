@@ -425,7 +425,7 @@ a:hover {
 
 .head-w {
 	width: 100%;
-	height: 122px;
+
 	position: fixed;
 	left: 0;
 	top: 0;
@@ -5009,6 +5009,7 @@ right: 50%;margin-right: -590px;
 .newsL ul li{float: left;line-height: 46px;text-align: center;width: 118px;border-right: 1px solid #f3f3f3;border-left: 1px solid #f3f3f3;border-top:1px solid #f3f3f3;}
 .newsL ul li a{font-size: 18px;font-weight: bold;}
 .newsL ul li.this{border-left: 1px solid #CCD1D9;background: #fff;border-right: 1px solid #CCD1D9;border-top:1px solid #fe573d;border-bottom: 1px solid #fff;}
+.newsL ul li.this a{color: #FE573D;}
 .newsX{background: #fff;width: 100%;overflow: hidden;}
 .newsCon{overflow: hidden;padding:0 20px 20px;}
 .news1{border-bottom: 1px dashed #e6e9ed;padding: 20px 0;overflow: hidden;}
@@ -5025,6 +5026,7 @@ right: 50%;margin-right: -590px;
 .newsR{width: 320px;float: right;margin-top: 50px;}
 .news_rs{height: 160px;margin-bottom: 20px;background: #aab2bd;}
 .news_rx{padding: 20px;background: #fff;}
+.news_rx_fixed{position: fixed;top: 80px;left: 50%;margin-left: 270px;z-index: 1;width: 280px;}
 .news_more{background: #e6e9ed;height: 40px;line-height: 40px;text-align: center;color: #656d78;}
 .news_more a{display: inline-block;padding-left: 20px;background: url(../images/ckgd_03.jpg) no-repeat left center;}
 .news_more a:hover{color: #444;}
