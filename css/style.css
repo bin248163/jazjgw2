@@ -551,7 +551,7 @@ a:hover {
 	-moz-transition: all .3s;
 	transition: all .3s;
 	height: 100%;
-	padding: 0 15px
+	padding: 0 10px
 }
 
 .nav ul li:hover a {
@@ -2648,7 +2648,7 @@ textarea {
 }
 
 .n-cases-i i {
-	display: inline-block
+	display: inline-block;font-size: 14px;
 }
 
 .n-cases-i span {
