@@ -191,7 +191,7 @@ $(function() {
 	//news	
 	$('.newsL ul li').click(function() {
 		$(this).addClass('this').siblings().removeClass('this');
-		var index = $(this).index(this);
+		var index = $('.newsL ul li').index(this);
 		$('.newsX').find('.newsCon').eq(index).show().siblings().hide();
 		return false;
 	})
