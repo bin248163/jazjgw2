@@ -335,7 +335,18 @@ $(function() {
 	$('.safety-r-item').hover(function() {
 		$(this).addClass('safety-r-active').siblings().removeClass('safety-r-active');
 	})
-
+	var zan=0;
+	$('.news_zan').click(function(){
+		
+		if (zan==0) {
+			$(this).addClass('this');
+			zan++;
+			
+		} else{
+			alert("您已经点过赞了")
+		}
+		return false;
+	});
 
 })
 

@@ -5025,3 +5025,25 @@ right: 50%;margin-right: -590px;
 .newsR{width: 320px;float: right;margin-top: 50px;}
 .news_rs{height: 160px;margin-bottom: 20px;background: #aab2bd;}
 .news_rx{padding: 20px;background: #fff;}
+.news_more{background: #e6e9ed;height: 40px;line-height: 40px;text-align: center;color: #656d78;}
+.news_more a{display: inline-block;padding-left: 20px;background: url(../images/ckgd_03.jpg) no-repeat left center;}
+.news_more a:hover{color: #444;}
+.zan-w{margin: 50px 0;}
+.news_zan{width: 98px;height: 98px;margin: 0 auto;display: block;background: #f3f3f3;border-radius: 50%;border: 1px dashed #b0b7c1;text-align: center;transition: all .35s;
+	-webkit-transition: all .35s;
+	-moz-transition: all .35s;
+	-o-transition: all .35s;}
+.news_zan i{font-size: 30px;color: #fe573d;padding-top: 30px;transition: all .35s;
+	-webkit-transition: all .35s;
+	-moz-transition: all .35s;
+	-o-transition: all .35s;}
+.news_zan span{font-size: 16px;color: #fe573d;transition: all .35s;
+	-webkit-transition: all .35s;
+	-moz-transition: all .35s;
+	-o-transition: all .35s;}
+.news_zan:hover{background: #FE573D;border: 1px solid #FE573D;}
+.news_zan:hover i{color: #fff;}
+.news_zan:hover span{color: #fff;}
+.news_zan.this{background: #FE573D;border: 1px solid #FE573D;}
+.news_zan.this i{color: #fff;}
+.news_zan.this span{color: #fff;}

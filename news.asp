@@ -81,10 +81,10 @@
 						<li><a href="">防火专题</a></li>
 						<li><a href="">行业资讯</a></li>
 					</ul>
-					<div class="newsX">
+					<div class="newsX" style="min-height: 755px;">
 						<div class="newsCon">
 							<div class="news1">
-								<a href="">
+								<a href="news-xx.asp">
 									<img src="images/smg_04.jpg" alt="" />
 									<div>
 										<h1><img src="images/tj_04.jpg" alt="" /><span>居安之家，使家更安心</span></h1>
@@ -101,7 +101,7 @@
 								</a>								
 							</div>
 							<div class="news1">
-								<a href="">
+								<a href="news-xx.asp">
 									<img src="images/smg_04.jpg" alt="" />
 									<div>
 										<h1><span>居安之家，使家更安心</span></h1>
@@ -120,7 +120,7 @@
 						</div>
 						<div class="newsCon">
 							<div class="news1">
-								<a href="">
+								<a href="news-xx.asp">
 									<img src="images/smg_04.jpg" alt="" />
 									<div>
 										<h1><img src="images/tj_04.jpg" alt="" /><span>居安之家，使家更安心</span></h1>
@@ -137,7 +137,7 @@
 								</a>								
 							</div>
 							<div class="news1">
-								<a href="">
+								<a href="news-xx.asp">
 									<img src="images/smg_04.jpg" alt="" />
 									<div>
 										<h1><span>居安之家，使家更安心</span></h1>
@@ -191,6 +191,7 @@
 							</div>
 						</div>
 					</div>
+					<div class="news_more"><a href="">查看更多</a></div>
 				</div>
 				<div class="newsR">
 					<div class="news_rs"></div>
@@ -198,7 +199,7 @@
 					<div class="news_rx">
 						<img src="images/rm_03.jpg" alt="" style="width: 280px;margin: 0 auto;"/>
 						<div class="safety-news-2">
-								<a href="safety-xx.asp" class="safety-r-item safety-r-active">
+								<a href="safety-xx.asp" class="safety-r-item safety-r-active" style="margin: 20px 0;">
 									<span class="num">1</span>
 									<div class="safety-r-item1" style="width: 100%;">
 
@@ -209,7 +210,7 @@
 										<span class="txt-1" style="width: 110px;">11111111111111111111111111111111111111111111111111111111111111 </span>
 									</div>
 								</a>
-								<a href="safety-xx.asp" class="safety-r-item">
+								<a href="safety-xx.asp" class="safety-r-item" style="margin: 20px 0;">
 									<span class="num">2</span>
 									<div class="safety-r-item1" style="width: 100%;">
 
@@ -220,7 +221,7 @@
 										<span class="txt-1" style="width: 110px;">11111111111111111111111111111111111111111111111111111111111111 </span>
 									</div>
 								</a>
-								<a href="safety-xx.asp" class="safety-r-item">
+								<a href="safety-xx.asp" class="safety-r-item" style="margin: 20px 0;">
 									<span class="num">3</span>
 									<div class="safety-r-item1" style="width: 100%;">
 
@@ -231,7 +232,7 @@
 										<span class="txt-1" style="width: 110px;">11111111111111111111111111111111111111111111111111111111111111 </span>
 									</div>
 								</a>
-								<a href="safety-xx.asp" class="safety-r-item">
+								<a href="safety-xx.asp" class="safety-r-item" style="margin: 20px 0;">
 									<span class="num">4</span>
 									<div class="safety-r-item1" style="width: 100%;">
 
@@ -242,7 +243,7 @@
 										<span class="txt-1" style="width: 110px;">11111111111111111111111111111111111111111111111111111111111111 </span>
 									</div>
 								</a>
-								<a href="safety-xx.asp" class="safety-r-item">
+								<a href="safety-xx.asp" class="safety-r-item" style="margin: 20px 0;">
 									<span class="num">5</span>
 									<div class="safety-r-item1" style="width: 100%;">
 
