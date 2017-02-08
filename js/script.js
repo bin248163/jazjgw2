@@ -348,25 +348,45 @@ $(function() {
 		return false;
 	});
 	//$(window).scrollTop() <  $('.news_rx').offset().top - 10 && 
-	if($('.news_rx').length > 0){
+
+	if($('.news_rx').length > 0) {
 		$(window).scroll(function() {
-	
-		if($(window).scrollTop() <  $('.news_rx').offset().top - 10) {
-
-			$('.news_rx').removeClass('news_rx_fixed');
-		}
-		if($(window).scrollTop() > $('.news_rx').offset().top - 80){
-			$('.news_rx').addClass('news_rx_fixed');
-		}
-		if($(window).scrollTop() > $('#joinx').offset().top - 500) {
-
-			$('.news_rx').removeClass('news_rx_fixed');
-		}
-		
-		
-		
-	});
+			if($(window).scrollTop() < $('.news_rx').offset().top - 10) {
+				$('.news_rx').removeClass('news_rx_fixed');
+				$('.news_rx').css("margin-top", "0");
+			}
+			if($(window).scrollTop() > $('.news_rx').offset().top - 80) {
+				$('.news_rx').addClass('news_rx_fixed');
+				$('.news_rx').css("margin-top", "0");
+			}
+			if($(window).scrollTop() > $('#joinx').offset().top - 500) {
+				$('.news_rx').removeClass('news_rx_fixed');
+				var mt = $('.newsX').height() - $('.news_rx').height() - 320;
+				$('.news_rx').css("margin-top", mt);
+			}
+		});
 	}
-	
+	$('.news_more a').click(function() {
+		$.ajax({
+				type: "post", //数据提交的类型（post或者get）
+				url: "abc.php", //数据提交得地址
+				data: {
+					id: 1,
+					num: 10
+				}, //提交的数据(自定义的一些后台程序需要的参数)
+				dataType: "json", //返回的数据类型
+				success: function(data) { //请求成功后返执行的方法（这里处理添加五条的数据 data为处理之后的返回数据）
+					var str = "";
+					$.each(data, function(index, value) { //循环遍历返回的json数据
+						str += '<div class="news1"><a href=""><img src="' + 
+								a + '" alt="" /><div><h1><img src="' + 
+								b + '" alt="" /><span>' + '</span></h1>' + '</p><div class="author"><div class="tx"><img src="' + 
+								c + '" alt="" /></div><span>安大叔 &nbsp;2016-08</span><span><i class="iconfont">&#xe601;</i>156</span><span><i class="iconfont" style="font-size: 15px;">&#xe708;</i>26</span></div></div></a></div>'
+					});
+					$(".newsCon").append(str) //将拼接好数据追加到id为main的对象里
+				}
+			});
+		return false;
+	})
 
 })

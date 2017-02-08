@@ -9,6 +9,7 @@
 		<link href="images/favicon.ico" type="image/x-icon" rel="shortcut icon" />
 		<link href="css/style.css" rel="stylesheet" />
 		<link rel="stylesheet" href="css/lightbox.css" media="screen"/>
+		
 	</head>
 
 	<body>
